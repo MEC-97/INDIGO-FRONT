@@ -1,0 +1,15 @@
+.flag-button {
+    background: transparent;
+    
+    border: none;
+    padding:  0;
+    cursor: pointer;
+  }
+  .flag-buttons-container {
+    position: fixed;
+    right:  100; 
+  }
+ .navbar-dark-scroll {
+    background-color: #333; /* Cambia el color según sea necesario */
+    transition: background-color  0.5s ease; /* Transición suave */
+  }
