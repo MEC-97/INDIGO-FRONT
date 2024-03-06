@@ -8,7 +8,7 @@ export const SET_IDIOMA = "SET_IDIOMA"
 
 export const traducciones = () => {
     return async function (dispatch) {
-        const { data } = await axios.get('https://indigo-back-dusky.vercel.app/traducciones');
+        const { data } = await axios.get('https://indigo-back-dusky.vercel.app/experiencias/traducciones');
          // console.log('Datos de productos:', data);
            dispatch({
          type: TRADUCCIONES,
