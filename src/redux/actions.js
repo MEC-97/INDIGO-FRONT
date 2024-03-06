@@ -8,7 +8,7 @@ export const SET_IDIOMA = "SET_IDIOMA"
 
 export const traducciones = () => {
     return async function (dispatch) {
-        const { data } = await axios.get('http://localhost:3001/experiencias/traducciones');
+        const { data } = await axios.get('https://indigo-back-dusky.vercel.app/traducciones');
          // console.log('Datos de productos:', data);
            dispatch({
          type: TRADUCCIONES,
@@ -28,7 +28,7 @@ export function setIdioma(idioma) {
 export const buscarId = (id)=>{
     return async function(dispatch){
         try {
-        const resApi = await axios(`http://localhost:3001/experiencias/${id}`)
+        const resApi = await axios(`https://indigo-back-dusky.vercel.app/experiencias/${id}`)
          if(resApi.data){
          return dispatch({
                 type:BUSCAR_PERSONAJE_ID,
@@ -42,7 +42,7 @@ export const buscarId = (id)=>{
 }
 export const getProductos = () => {
     return async function (dispatch) {
-        const { data } = await axios.get('http://localhost:3001/experiencias');
+        const { data } = await axios.get('https://indigo-back-dusky.vercel.app/experiencias');
          // console.log('Datos de productos:', data);
            dispatch({
          type: GET_ALL_PRODUCTS,
