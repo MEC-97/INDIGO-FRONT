@@ -43,7 +43,7 @@ export const buscarId = (id)=>{
 export const getProductos = () => {
     return async function (dispatch) {
         const { data } = await axios.get('https://indigo-back-dusky.vercel.app/experiencias');
-         // console.log('Datos de productos:', data);
+         console.log('Datos de productos:', data);
            dispatch({
          type: GET_ALL_PRODUCTS,
           payload: data
