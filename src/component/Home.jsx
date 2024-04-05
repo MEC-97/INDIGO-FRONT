@@ -42,7 +42,7 @@ export default function Home() {
 <hr class="featurette-divider"/>
 
 <>
-{allProducts.experiecias.length > 0 &&(
+{allProducts.experiecias.length > 0 && (
   <> 
 <div class="row featurette" key={allProducts.experiecias[0].id}>
     <div class="col-7 text-center">
