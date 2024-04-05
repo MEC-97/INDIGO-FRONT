@@ -1,7 +1,8 @@
 {
   "name": "indigo",
   "version": "0.1.0",
-  "private": true,
+  "private": true, 
+  "homepage":"https://indigoturismomendoza.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -22,7 +23,7 @@
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://indigoturismomendoza.com/",
+ 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
