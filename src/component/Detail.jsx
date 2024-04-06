@@ -37,7 +37,7 @@ function Detail() {
     }
   }
 
-  const paragraphs = producto[getTextKey(idioma)].split('@@@');
+  const paragraphs = producto && producto[getTextKey(idioma)] ? producto[getTextKey(idioma)].split('@@@') : [];
 
   return (
     <div>
