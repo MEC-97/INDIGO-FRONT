@@ -7,9 +7,9 @@ import indigo from "../assets/indigo.png";
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setIdioma } from '../redux/actions';
-import esFlag from '../assets/españa.png';
-import enFlag from '../assets/eeuu.png';
-import porFlag from '../assets/brasi.png'; 
+import esFlag from '../assets/españa.jpg';
+import enFlag from '../assets/eeuu.jpg';
+import porFlag from '../assets/brasi.jpg'; 
 import './Navbar.css';
 
  
