@@ -26,10 +26,10 @@ export default function Home() {
       })
       .catch((error) => {
         setIsLoading(false);
-        console.error(error);
+        
       });
   }, [dispatch]);
- console.log(allProducts.experiecias)
+ 
   return ( 
     <>
     <div className='fondo tracking-in-expand'>

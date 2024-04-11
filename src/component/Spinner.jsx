@@ -1,12 +1,13 @@
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import Spinner from 'react-bootstrap/Spinner';
 
-function ContextualExample() {
+function Loading() {
   return (
-    <div>
-      <ProgressBar variant="success" now={40} />
+    <>
       
-    </div>
+      <Spinner animation="grow" variant="success" />
+      
+    </>
   );
 }
 
-export default ContextualExample;
+export default Loading;
