@@ -26,8 +26,7 @@ function CenteredModal({ experienceId, ...props }) {
   const experience = experiences.find(exp => exp.id === experienceIdToUse);
 
 
-  console.log('Looking for experience with ID: ', experienceIdToUse);
-  console.log('Found experience: ', experience);
+
 
   const experienceImages = experience ? experience.imggaleria : [];
 

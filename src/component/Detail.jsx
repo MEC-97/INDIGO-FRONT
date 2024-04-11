@@ -1,4 +1,4 @@
-import React, {  useEffect } from 'react';
+import React, {  useEffect, useState } from 'react';
 import { buscarId } from '../redux/actions';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
