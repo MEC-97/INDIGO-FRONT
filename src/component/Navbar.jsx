@@ -2,14 +2,14 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import indigo from "../assets/indigo.png";
+import indigo from "./indigo.png";
 
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setIdioma } from '../redux/actions';
-import esFlag from '../assets/españa.jpg';
-import enFlag from '../assets/eeuu.jpg';
-import porFlag from '../assets/brasi.jpg'; 
+import esFlag from './españa.jpg';
+import enFlag from './eeuu.jpg';
+import porFlag from './brasi.jpg'; 
 import './Navbar.css';
 
  
@@ -46,5 +46,5 @@ function NavBar({ setIdioma }) {
     </>
   );
 }
-console.log(indigo, esFlag, enFlag,porFlag )
+
 export default connect(null, { setIdioma })(NavBar);

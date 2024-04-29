@@ -32,7 +32,7 @@ function Footer() {
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         <li className="ms-3"><a className="text-body-secondary" href="#"><svg className="bi" width="24" height="24"><use xlinkHref="#twitter"/></svg></a></li>
                         <li className="ms-3"><a className="text-body-secondary" href="https://www.instagram.com/indigoviajes/"><svg className="bi" width="24" height="24"><use xlinkHref="#instagram"/></svg></a></li>
-                        <li className="ms-3"><a className="text-body-secondary" href="https://m.facebook.com/p/Indigo-Viajes-y-Turismo--100057438520509/"><svg className="bi" width="24" height="24"><use xlinkHref="#facebook"/></svg></a></li>
+                       
                     </ul>
                 </footer>
             </div>

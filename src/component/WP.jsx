@@ -1,6 +1,6 @@
 import React from 'react';
 import "./WP.css";
-import whatsapp from "../assets/icone-du-logo-whatsapp-vert.png";
+import whatsapp from "./icone-du-logo-whatsapp-vert.png";
 
 function WhatsappButton() {
     return (
