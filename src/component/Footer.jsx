@@ -1,5 +1,5 @@
 import React from 'react';
-import indigo from "../assets/indigo.png";
+import indigo from "./indigo.png";
 
 function Footer() {
     return (
